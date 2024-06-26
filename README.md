@@ -1,27 +1,47 @@
-# CrudFrontend
+<h1 align="center" style="font-weight: bold;">Login Page example in Angular</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+<p align="center">
+ <a href="#about">About</a> • 
+ <a href="#started">Getting Started</a> • 
+  <a href="#routes">App Routes</a> • 
+</p>
 
-## Development server
+<p align="center">
+    <img src="./.github/login.png" alt="Image Example">
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<h2 id="about">📌 About</h2>
 
-## Code scaffolding
+This project is a simple Login and Registration application developed in Angular with authentication and backend integration. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+[Reference video](https://youtu.be/6qbuuPM_de4)
 
-## Build
+<h2 id="started">🚀 Getting started</h2>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<h3>Prerequisites</h3>
 
-## Running unit tests
+- [NodeJS](https://nodejs.org/)
+- [Git](https://git-scm.com)
+- [Angular CLI](https://angular.io/cli)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<h3>Cloning</h3>
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+git clone https://github.com/ygorportes/crud-frontend.git
+```
 
-## Further help
+<h3>Starting</h3>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+cd project-name
+npm run start
+```
+
+<h2 id="routes">📍 Application Routes</h2>
+
+| route                | description                                          
+|----------------------|-----------------------------------------------------
+| <kbd>/signup</kbd>   | Page to sign up
+| <kbd>/login</kbd>    | Page to login
+| <kbd>/user</kbd>     | Protected page that only logged in users can access
